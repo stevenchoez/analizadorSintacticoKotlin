@@ -59,10 +59,10 @@ def p_option(p):
   | printDW
   '''
 def p_Cif(p): 
-  'Cif : IF LPAREN ID comparation INT RPAREN FUNSEP option FUNSEP'
+  'ejec : IF LPAREN ID comparation INT RPAREN FUNSEP option FUNSEP'
 
 def p_elif(p):
-  ' elif : IF LPAREN ID comparation INT RPAREN FUNSEP option FUNSEP ELSE FUNSEP option FUNSEP' 
+  'ejec : IF LPAREN ID comparation INT RPAREN FUNSEP option FUNSEP ELSE FUNSEP option FUNSEP' 
   
   
   
